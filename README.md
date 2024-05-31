@@ -85,16 +85,3 @@
     - [S3 Static Website Hosting multi Env](99-Terraform-Example-Codes/02.1-s3-static-website-env/)
 
 -->
-
-
-### Youtube Terraform videos to Get Started
-1. Terraform Zero to Hero by Abhishek Veeramalla
-    - [Terraform Zero to Hero](https://youtube.com/playlist?list=PLdpzxOOAlwvI0O4PeKVV1-yJoX2AqIWuf&si=6kClUR6Pmm4nFaqO)
-2. FreeCodeCamp.org and Andrew Brown
-    - [HashiCorp Terraform Associate Certification Course (003) - Pass the Exam!](https://youtu.be/SPcwo0Gq9T8?si=yOpMHV4uMc6XMDxk)
-    - [Terraform Beginner Bootcamp](https://youtu.be/eiox8xFsCpE?si=SiR0J_2hoEnkCiGi)
-    - [Terraform Crash Course - Automate your AWS cloud infrastructure](https://youtu.be/SLB_c_ayRMo?si=d6AlE6xvnwX8ROie)
-3. Terraform Course by Derek Morgan
-    - [Terraform Foundations Course](https://youtube.com/playlist?list=PL5_Rrj9tYQAlgX9bTzlTN0WzU67ZeoSi_&si=PtpUZjWeWeLcJz4-)
-4. Terraform Course by Sid
-    - [Complete Terraform Course - From BEGINNER to PRO!](https://youtu.be/7xngnjfIlK4?si=7AzbLsVERfge3W0i)
