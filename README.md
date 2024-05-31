@@ -6,9 +6,7 @@
 
 - ### [00-Terraform-Basics](00-Terraform-Basics) - Terraform Definitions and more
 
-- ### [02-Terraform-Configuration](01-Terraform-Configuration) - Configure Terraform
-
-- ### [03-Terraform-Terminologies](03-Terraform-Terminologies)
+- ### [02-Terraform-Terminologies](02-Terraform-Terminologies)
 
     - **Provider** : Define the providers like AWS, Azure, GCP
     - **Resource** : Infrastructure Resources to be created, ex: VPC, S3, EC2
@@ -18,7 +16,7 @@
     - **Attributes** : Outputs
     - **Meta-Arguments** : Terraform specific Inputs ex: count, for_each,depends_on
 
-- ### [04-Terraform-Top-Level-Blocks](04-Terraform-Top-Level-Blocks) - Terraform Top Level Blocks
+- ### [03-Terraform-Top-Level-Blocks](03-Terraform-Top-Level-Blocks) - Terraform Top Level Blocks
     - **Terraform Block** (>0.13 version) or Terraform Settings Block or Terraform Configuration Block 
     - **Provider Block**
     - **Resource Block**
@@ -29,7 +27,7 @@
     - **Modules Block**
 
 
-- ### [05-Terraform-Commands](05-Terraform-Commands) - Basic Terraform Commands
+- ### [04-Terraform-Commands](04-Terraform-Commands) - Basic Terraform Commands
     - *`terraform init`*
     - *`terraform validate`*
     - *`terraform plan`*
@@ -37,38 +35,38 @@
     - *`terraform destroy`* or *`terraform destroy -auto-approve`*
 
 
-- ### [06-Terraform-Resources](06-Terraform-Resources) - Understanding Resource behavior
+- ### [05-Terraform-Resources](05-Terraform-Resources) - Understanding Resource behavior
     - ***created***
     - ***destroyed*** 
     - ***updated***
 
-- ### [07-Terraform-Resource-Meta-Arguments](08-Terraform-Resource-Meta-Arguments) - Terraform Meta-Arguments
+- ### [06-Terraform-Resource-Meta-Arguments](06-Terraform-Resource-Meta-Arguments) - Terraform Meta-Arguments
     1. [***`count`***](07-Terraform-Resource-Meta-Arguments/08-01-count/)
     2. [***`for_each`***](07-Terraform-Resource-Meta-Arguments/08-02-for_each/) 
     3. [***`depends_on`***](07-Terraform-Resource-Meta-Arguments/08-03-depends_on/)
     4. [***`provider`***](07-Terraform-Resource-Meta-Arguments/08-04-provider/) 
     5. [***`lifecycle`***](07-Terraform-Resource-Meta-Arguments/08-05-lifecycle/)
 
-- ### [08-Terraform-Variables](08-Terraform-Variables) - Terraform Variables
-    1. [**Terraform Variables with `default` Option**](08-Terraform-Variables/)
-    2. [**Overriding `default` Variable values with `-var` Option**](08-Terraform-Variables/)
-    3. [**Overriding `default` Variable values with `Environment Variables` Options**](08-Terraform-Variables/)
-    4. [**Overriding `default` Variable values with `terraform.tfvars` file**](08-Terraform-Variables/08-01-Terraform-Variables-tfvars/)
-    5. [**Overriding `default` Variable values with different `.tfvars` using *`-var-file`* Option**](08-Terraform-Variables/08-02-Terraform-Variables-tfvars-var-file/)
-    6. [**Terraform Variables type *list***](08-Terraform-Variables/08-03-Terraform-Variables-list/)
-    7. [**Terraform Variables type *map***](08-Terraform-Variables/08-04-Terraform-Variables-map/)
-    8. [**Custom Validation Rules**](/08-Terraform-Variables/08-05-Custom-Validation-Rules/)
-    9. [**Sensitive Variables**](/08-Terraform-Variables/08-06-Sensitive-Variables/)
+- ### [07-Terraform-Variables](07-Terraform-Variables) - Terraform Variables
+    1. [**Terraform Variables with `default` Option**](07-Terraform-Variables/)
+    2. [**Overriding `default` Variable values with `-var` Option**](07-Terraform-Variables/)
+    3. [**Overriding `default` Variable values with `Environment Variables` Options**](07-Terraform-Variables/)
+    4. [**Overriding `default` Variable values with `terraform.tfvars` file**](07-Terraform-Variables/07-01-Terraform-Variables-tfvars/)
+    5. [**Overriding `default` Variable values with different `.tfvars` using *`-var-file`* Option**](07-Terraform-Variables/07-02-Terraform-Variables-tfvars-var-file/)
+    6. [**Terraform Variables type *list***](07-Terraform-Variables/07-03-Terraform-Variables-list/)
+    7. [**Terraform Variables type *map***](08-Terraform-Variables/07-04-Terraform-Variables-map/)
+    8. [**Custom Validation Rules**](/08-Terraform-Variables/07-05-Custom-Validation-Rules/)
+    9. [**Sensitive Variables**](/08-Terraform-Variables/07-06-Sensitive-Variables/)
 
-- ### [09-Terraform-Outputs](09-Terraform-Outputs) - Terraform Output Values
+- ### [08-Terraform-Outputs](08-Terraform-Outputs) - Terraform Output Values
 
-- ### [10-Terraform-Data-Sources](10-Terraform-Data-Sources) - Terraform Data Sources
+- ### [09-Terraform-Data-Sources](09-Terraform-Data-Sources) - Terraform Data Sources
 
-- ### [11-Terraform-State](11-Terraform-State) - Terraform State
+- ### [10-Terraform-State](10-Terraform-State) - Terraform State
 
-- ### [12-Terraform-Show](13-Terraform-Show) - Terraform Show (need to update)
+- ### [11-Terraform-Show](11-Terraform-Show) - Terraform Show (need to update)
 
-- ### [14-Terraform-Refresh](12-Terraform-Refresh) - Terraform Refresh Desired and Current state sync
+- ### [12-Terraform-Refresh](12-Terraform-Refresh) - Terraform Refresh Desired and Current state sync
 
 - ### [13-Terraform-State-Commands](13-Terraform-State-Commands) - Inspect, Modify, and Manage the Terraform state
 
